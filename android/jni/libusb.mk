@@ -49,6 +49,6 @@ LOCAL_EXPORT_C_INCLUDES := \
 
 LOCAL_LDLIBS := -llog
 
-LOCAL_MODULE := libusb1.0
+LOCAL_MODULE := libusb
 
 include $(BUILD_SHARED_LIBRARY)

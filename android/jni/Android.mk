@@ -19,5 +19,5 @@
 LOCAL_PATH:= $(call my-dir)
 
 include $(LOCAL_PATH)/libusb.mk
-include $(LOCAL_PATH)/examples.mk
-include $(LOCAL_PATH)/tests.mk
+# include $(LOCAL_PATH)/examples.mk
+# include $(LOCAL_PATH)/tests.mk
