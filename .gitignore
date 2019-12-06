@@ -58,3 +58,5 @@ xcuserdata
 *.xcuserdatad
 *.xccheckout
 *.xcscmblueprint
+android/obj
+android/libs
