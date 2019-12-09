@@ -1390,6 +1390,7 @@ int LIBUSB_CALL libusb_get_max_iso_packet_size(libusb_device *dev,
 
 int LIBUSB_CALL libusb_wrap_sys_device(libusb_context *ctx, intptr_t sys_dev, libusb_device_handle **dev_handle);
 int LIBUSB_CALL libusb_open(libusb_device *dev, libusb_device_handle **dev_handle);
+int LIBUSB_CALL libusb_open_from_fd(libusb_device *dev, libusb_device_handle **handle, int fd);
 void LIBUSB_CALL libusb_close(libusb_device_handle *dev_handle);
 libusb_device * LIBUSB_CALL libusb_get_device(libusb_device_handle *dev_handle);
 

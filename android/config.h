@@ -26,11 +26,17 @@
 /* Define to 1 if you have the <dlfcn.h> header file. */
 #define HAVE_DLFCN_H 1
 
+/* Define to 1 if you have the `gettimeofday' function. */
+#define HAVE_GETTIMEOFDAY 1
+
 /* Define to 1 if you have the <inttypes.h> header file. */
 #define HAVE_INTTYPES_H 1
 
 /* Linux backend */
 #define OS_LINUX 1
+
+/* Android backend */
+// #define OS_ANDROID 1
 
 /* Enable output to system log */
 #define USE_SYSTEM_LOGGING_FACILITY 1
@@ -49,6 +55,9 @@
 
 /* Define to 1 if you have the <poll.h> header file. */
 #define HAVE_POLL_H 1
+
+/* Define to 1 if you have the <signal.h> header file. */
+// #define HAVE_SIGNAL_H 1
 
 /* Define to 1 if you have the <sys/stat.h> header file. */
 #define HAVE_SYS_STAT_H 1
